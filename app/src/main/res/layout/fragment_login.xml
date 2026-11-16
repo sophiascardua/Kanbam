@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:text="E-mail"
             android:textStyle="bold"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white" />
 
         <EditText
             android:layout_width="match_parent"
@@ -70,7 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="12dp">
+            android:layout_marginTop="4dp">
 
             <TextView
                 android:id="@+id/btnRegister"
@@ -89,6 +89,7 @@
                 android:layout_weight="1"
                 android:textAlignment="textEnd"
                 android:textColor="@color/white"/>
+
         </LinearLayout>
 
         <ProgressBar
@@ -96,9 +97,14 @@
             android:layout_height="wrap_content"
             android:indeterminateTint="@color/white"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:visibility="gone"
-            tools:visibility="visible"/>
+            tools:visibility="visible"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sophia Gomes Scardua"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 
